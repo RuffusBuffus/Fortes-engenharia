@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #002c54;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-a {
+    background-color: #c0c0c0;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-button.active,
+.menu-button:hover {
+    background-color: #002c54;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #004080;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text {
+    width: 60%;
+}
+
+.image {
+    width: 35%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.profile-container {
+    background-color: #004080;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.profile-pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-group {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-red {
+    background-color: #ff0000;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #0000ff;
+    color: white;
+}
+
+.btn-green {
+    background-color: #00ff00;
+    color: white;
+}
+
+#form-inst{
+    display: flex;
+    align-content: center;
+}
